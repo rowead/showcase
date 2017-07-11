@@ -21,3 +21,7 @@ Starting with Raspbian Linux distro, this must be turned into or replaced with a
 
 
 Fill out faked API endpoint with label information and create HTML5 based label.
+
+## Notes
+init.sh was created to document the extra steps to set up logstash on a raspberry pi, after the work was done
+it hasn't been tested.
