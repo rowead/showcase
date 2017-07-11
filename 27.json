@@ -1,0 +1,24 @@
+{
+  "Showcase name": "Showcase 27",
+  "id": 27,
+  "machine_name": "showcase_27",
+  "Branch": "Maritime",
+  "Building": "Main",
+  "Gallery": "Australia II",
+  "Floor": "Ground",
+  "Type": "Sealed glass",
+  "Contents": {
+    "Items": [
+      {
+        "assc": "H2009.1",
+        "id": 229282,
+        "dept": "History"
+      },
+      {
+        "assc": "H2009.2",
+        "id": 9948474,
+        "dept": "History"
+      }
+    ]
+  }
+}
