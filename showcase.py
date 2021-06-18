@@ -2,7 +2,7 @@
 import socket
 import time
 import json
-import urllib
+import urllib.request
 import logmatic
 import logging
 import Adafruit_DHT
@@ -14,7 +14,7 @@ response = urllib.request.urlopen("http://andrewrowe.online.test.api.s3-ap-south
 showcase_info = json.loads(response.read().decode())
 
 logger = logging.getLogger()
-log_handler = logging.handlers.WatchedFileHandler('/var/log/showcase/showcase.log')
+log_handler = logging.handlers.WatchedFileHandler('./showcase.log')
 # @TODO: get rid of unused fields logged by logmatic
 log_handler.setFormatter(logmatic.JsonFormatter(fmt="%(message)",extra={"hostname": socket.gethostname()}))
 logger.addHandler(log_handler)
