@@ -33,6 +33,6 @@ while True:
 	for showcase in showcase_info["Showcases"]:
 		temp = temperature + offset
 		hum = humidity + offset
-		offset += 2.0
+		offset += 0.0
 		logger.info({'Temperature': '{:0.1f}'.format(temp), 'Humidity': '{:0.1f}'.format(hum)}, extra=showcase)
 	time.sleep(30)
